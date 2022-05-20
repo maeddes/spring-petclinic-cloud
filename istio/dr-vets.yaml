@@ -1,0 +1,18 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: vets-service
+spec:
+  host: vets-service.spring-petclinic.svc.cluster.local
+  trafficPolicy:
+    tls:
+      mode: ISTIO_MUTUAL
+  subsets:
+  - name: v0-1
+    labels:
+      app: vets-service
+      version: "0.1"
+  - name: v0-2
+    labels:
+      app: vets-service
+      version: "0.2"
