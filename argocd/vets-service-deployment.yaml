@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   labels:
     app: vets-service
+    version: "0.1"
   name: vets-service
   namespace: spring-petclinic
 spec:
@@ -11,6 +12,7 @@ spec:
   selector:
     matchLabels:
       app: vets-service
+      version: "0.1"
   strategy: {}
   template:
     metadata:
@@ -18,7 +20,7 @@ spec:
         app: vets-service
     spec:
       containers:
-      - image: maeddes/spring-petclinic-cloud-vets-service:latest
+      - image: maeddes/spring-petclinic-cloud-vets-service:v0.1
         name: vets-service
         imagePullPolicy: Always
         livenessProbe:
