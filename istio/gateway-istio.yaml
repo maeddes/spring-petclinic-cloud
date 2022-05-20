@@ -1,0 +1,26 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: istio
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - istio.40.67.222.119.nip.io
+    tls:
+      httpsRedirect: true    
+  - port:
+      number: 443
+      name: https
+      protocol: HTTPS
+    hosts:
+    - istio.40.67.222.119.nip.io
+    tls:
+      mode: SIMPLE
+      minProtocolVersion: TLSV1_2
+      credentialName: istio.app-tls

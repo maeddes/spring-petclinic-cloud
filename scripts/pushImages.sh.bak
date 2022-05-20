@@ -1,0 +1,9 @@
+#!/bin/bash
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-api-gateway:v0.1
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-visits-service:v0.1
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-vets-service:v0.1
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-customers-service:v0.1
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-admin-server:v0.1
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-discovery-service:v0.1
+docker push ${REPOSITORY_PREFIX}/spring-petclinic-cloud-config-server:v0.1
+
