@@ -18,3 +18,7 @@ target/
 generated/
 .DS_Store
 .vscode/settings.json
+
+
+istio/istio.crt
+istio/istio.key
