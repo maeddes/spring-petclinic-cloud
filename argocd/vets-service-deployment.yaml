@@ -18,6 +18,7 @@ spec:
     metadata:
       labels:
         app: vets-service
+        version: "0.1"
     spec:
       containers:
       - image: maeddes/spring-petclinic-cloud-vets-service:v0.1

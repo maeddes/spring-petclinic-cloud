@@ -18,6 +18,7 @@ spec:
     metadata:
       labels:
         app: vets-service
+        version: "0.2"
     spec:
       containers:
       - image: maeddes/spring-petclinic-cloud-vets-service:v0.2
@@ -56,8 +57,6 @@ spec:
              secretKeyRef:
                name: vets-db-mysql
                key: mysql-root-password
-        - name: MANAGEMENT_METRICS_EXPORT_WAVEFRONT_URI
-          value: proxy://wavefront-proxy.spring-petclinic.svc.cluster.local:2878
         ports:
         - containerPort: 8080
         resources: {}
