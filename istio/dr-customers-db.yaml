@@ -1,0 +1,14 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: customers-db-mysql
+spec:
+  host: customers-db-mysql.spring-petclinic.svc.cluster.local
+  trafficPolicy:
+    tls:
+      mode: ISTIO_MUTUAL
+  subsets:
+  - labels:
+      app.kubernetes.io/name: mysql
+      app.kubernetes.io/instance: customers-db-mysql
+      app.kubernetes.io/component: primary

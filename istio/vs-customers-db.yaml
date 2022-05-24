@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: customers-db-mysql
+spec:
+  hosts:
+  - customers-db-mysql.spring-petclinic.svc.cluster.local
+  http:
+  - match:
+    - sourceLabels:
+        app: customers-service
+    route:
+    - destination:
+        host: customers-db-mysql.spring-petclinic.svc.cluster.local
+        port:
+          number: 5432
