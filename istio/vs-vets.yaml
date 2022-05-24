@@ -1,0 +1,24 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: vets-service
+spec:
+  hosts:
+  - vets-service.spring-petclinic.svc.cluster.local
+  http:
+  - match:
+    - uri:
+        prefix: /
+    route:
+    - destination:
+        host: vets-service.spring-petclinic.svc.cluster.local
+        subset: v0-1
+        port:
+          number: 8080
+      weight: 75
+    - destination:
+        host: vets-service.spring-petclinic.svc.cluster.local
+        subset: v0-2
+        port:
+          number: 8080
+      weight: 25
