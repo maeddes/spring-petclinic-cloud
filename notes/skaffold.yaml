@@ -1,0 +1,24 @@
+apiVersion: skaffold/v2beta12
+kind: Config
+metadata:
+  name: k-s-demo-app--
+build:
+  artifacts:
+  - image: spring-on-kubernetes-w01-s012-registry.learningcenter.tap.ryanjbaxter.com/apps/demo
+    custom:
+      buildCommand: ./mvnw spring-boot:build-image -D spring-boot.build-image.imageName=$IMAGE && docker push $IMAGE
+      dependencies:
+        paths:
+        - src
+        - pom.xml
+deploy:
+  kubectl:
+    manifests:
+    - k8s/deployment.yaml
+    - k8s/service.yaml
+    - k8s/ingress.yaml
+portForward:
+- resourceType: service
+  resourceName: k8s-demo-app 
+  port: 80
+  localPort: 4503

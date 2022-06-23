@@ -1,0 +1,261 @@
+2022-05-26 17:51:46,622 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-05-26 17:51:46,659 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/user.properties
+2022-05-26 17:51:46,661 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.3/libexec/bin/system.properties
+2022-05-26 17:51:46,668 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-05-26 17:51:46,668 INFO o.a.j.JMeter: Version 5.4.3
+2022-05-26 17:51:46,668 INFO o.a.j.JMeter: java.version=18.0.1
+2022-05-26 17:51:46,668 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-05-26 17:51:46,668 INFO o.a.j.JMeter: os.name=Mac OS X
+2022-05-26 17:51:46,668 INFO o.a.j.JMeter: os.arch=x86_64
+2022-05-26 17:51:46,669 INFO o.a.j.JMeter: os.version=12.3.1
+2022-05-26 17:51:46,669 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-05-26 17:51:46,669 INFO o.a.j.JMeter: java.awt.headless=null
+2022-05-26 17:51:46,669 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-05-26 17:51:46,669 INFO o.a.j.JMeter: Available Processors =12
+2022-05-26 17:51:46,680 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-05-26 17:51:46,681 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-05-26 17:51:46,681 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.3/libexec
+2022-05-26 17:51:46,681 INFO o.a.j.JMeter: user.dir  =/Users/mhs/git/wip/spring-petclinic-cloud/istio
+2022-05-26 17:51:46,681 INFO o.a.j.JMeter: PWD       =/Users/mhs/git/wip/spring-petclinic-cloud/istio
+2022-05-26 17:51:46,682 INFO o.a.j.JMeter: IP: 10.93.0.88 Name: NB200824MHS FullName: 10.93.0.88
+2022-05-26 17:51:48,853 INFO o.a.j.JMeter: Setting LAF to: laf:com.apple.laf.AquaLookAndFeel
+2022-05-26 17:51:50,780 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-05-26 17:51:51,912 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-98e7583a6772ba6ce6d8214a1c10bd8d-gui
+2022-05-26 17:51:54,151 INFO o.j.r.PluginManager: Plugins Status: [jpgc-casutg=2.10, jpgc-plugins-manager=1.7, jmeter-core=5.4.3, jmeter-ftp=5.4.3, jmeter-http=5.4.3, jmeter-jdbc=5.4.3, jmeter-jms=5.4.3, jmeter-junit=5.4.3, jmeter-java=5.4.3, jmeter-ldap=5.4.3, jmeter-mail=5.4.3, jmeter-mongodb=5.4.3, jmeter-native=5.4.3, jmeter-tcp=5.4.3, jmeter-components=5.4.3]
+2022-05-26 17:53:18,410 INFO o.a.j.s.FileServer: Default base='/Users/mhs/git/wip/spring-petclinic-cloud/istio'
+2022-05-26 17:53:18,412 INFO o.a.j.g.a.Load: Loading file: /Users/mhs/git/wip/spring-petclinic-cloud/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx
+2022-05-26 17:53:18,413 INFO o.a.j.s.FileServer: Set new base='/Users/mhs/git/wip/spring-petclinic-cloud/spring-petclinic-api-gateway/src/test/jmeter'
+2022-05-26 17:53:18,571 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-05-26 17:53:18,582 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-05-26 17:53:18,583 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-05-26 17:53:18,584 INFO o.a.j.s.SaveService: Loading file: /Users/mhs/git/wip/spring-petclinic-cloud/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx
+2022-05-26 17:53:18,706 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:53:18,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:53:18,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:53:18,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:53:18,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-05-26 17:53:18,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-05-26 17:53:18,815 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-05-26 17:53:18,815 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-05-26 17:53:18,964 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-05-26 17:53:18,964 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-05-26 17:53:18,964 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-05-26 17:53:18,964 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-05-26 17:53:19,130 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-05-26 17:53:19,190 INFO o.a.j.s.FileServer: Set new base='/Users/mhs/git/wip/spring-petclinic-cloud/spring-petclinic-api-gateway/src/test/jmeter'
+2022-05-26 17:53:29,912 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-26 17:53:29,913 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 17:53:29,913 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 17:53:29,916 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-26 17:53:29,955 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-26 17:53:29,955 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-26 17:53:29,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-26 17:53:29,955 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-26 17:53:29,956 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-26 17:53:29,956 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-26 17:53:29,959 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 17:53:30,402 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = NB200824MHS
+2022-05-26 17:53:30,407 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-05-26 17:53:35,788 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-05-26 17:53:35,788 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-05-26 17:59:00,053 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 17:59:00,053 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 17:59:00,055 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-26 17:59:00,055 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-26 18:00:14,158 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-26 18:00:14,159 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 18:00:14,160 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-26 18:00:14,197 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-26 18:00:14,197 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-26 18:00:14,197 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-26 18:00:14,197 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-26 18:00:14,198 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-26 18:00:14,199 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-26 18:00:14,199 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 18:05:43,882 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 18:05:43,883 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-26 18:05:43,883 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-26 23:31:40,384 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-26 23:31:40,386 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 23:31:40,388 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-26 23:31:40,492 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-26 23:31:40,492 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-26 23:31:40,492 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-26 23:31:40,492 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-26 23:31:40,493 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-26 23:31:40,493 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-26 23:31:40,494 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:36:44,848 INFO o.a.j.g.a.Start: Shutting test down
+2022-05-26 23:36:44,870 INFO o.a.j.t.JMeterThread: Stopping: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:42:16,156 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:42:16,156 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:42:16,157 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-26 23:42:16,157 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-26 23:44:52,401 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-26 23:44:52,401 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 23:44:52,403 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-26 23:44:52,481 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-26 23:44:52,481 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-26 23:44:52,481 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-26 23:44:52,482 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-26 23:44:52,482 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-26 23:44:52,482 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-26 23:44:52,483 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:50:35,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:50:35,170 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-26 23:50:35,170 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-26 23:50:35,170 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 12:29:57,367 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 12:29:57,368 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 12:29:57,370 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 12:29:57,409 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 12:29:57,409 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 12:29:57,409 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 12:29:57,409 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 12:29:57,410 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 12:29:57,410 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 12:29:57,410 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:35:27,426 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:35:27,427 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:35:27,427 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 12:35:27,427 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 12:38:58,401 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 12:38:58,417 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 12:38:58,418 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 12:38:58,476 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 12:38:58,478 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 12:38:58,478 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 12:38:58,478 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 12:38:58,479 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 12:38:58,480 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:38:58,497 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 12:44:28,326 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:44:28,327 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 12:44:28,328 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 12:45:54,134 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 12:45:54,134 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 12:45:54,135 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 12:45:54,172 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 12:45:54,172 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 12:45:54,172 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 12:45:54,172 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 12:45:54,173 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 12:45:54,173 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 12:45:54,173 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:51:23,959 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:51:23,960 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 12:51:23,960 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 12:52:18,716 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 12:52:18,716 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 12:52:18,717 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 12:52:18,758 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 12:52:18,758 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 12:52:18,758 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 12:52:18,758 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 12:52:18,759 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 12:52:18,759 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 12:52:18,759 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:57:48,425 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 12:57:48,426 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 12:57:48,426 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 13:01:20,613 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 13:01:20,613 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 13:01:20,615 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 13:01:20,687 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 13:01:20,688 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 13:01:20,688 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 13:01:20,688 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 13:01:20,689 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 13:01:20,689 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 13:01:20,690 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 13:06:50,240 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 13:06:50,241 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 13:06:50,241 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 13:08:13,847 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 13:08:13,848 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 13:08:13,848 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 13:08:13,887 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 13:08:13,888 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 13:08:13,888 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 13:08:13,888 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 13:08:13,889 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 13:08:13,889 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 13:08:13,889 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 13:12:54,151 INFO o.a.j.g.a.Start: Stopping test
+2022-05-27 13:12:54,167 INFO o.a.j.t.JMeterThread: Stopping: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 13:12:54,168 WARN o.a.j.t.JMeterThread: Interrupting: jp@gc - Ultimate Thread Group 1-1 sampler: Add Visit
+2022-05-27 13:12:54,174 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 13:12:54,175 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 13:12:54,208 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 14:27:53,709 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 14:27:53,710 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 14:27:53,711 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 14:27:53,749 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 14:27:53,749 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 14:27:53,749 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 14:27:53,749 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 14:27:53,750 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 14:27:53,750 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 14:27:53,750 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 14:33:23,877 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 14:33:23,877 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 14:33:23,878 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 14:33:23,897 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 14:34:17,121 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 14:34:17,121 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 14:34:17,123 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 14:34:17,189 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 14:34:17,190 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 14:34:17,190 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 14:34:17,190 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 14:34:17,191 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 14:34:17,191 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 14:34:17,192 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 15:16:50,944 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 15:16:50,944 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 15:16:50,944 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 15:16:50,945 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 15:44:20,437 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 15:44:20,438 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 15:44:20,439 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 15:44:20,482 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 15:44:20,482 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 15:44:20,482 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 15:44:20,482 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 15:44:20,483 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 15:44:20,483 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 15:44:20,483 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 15:46:30,015 INFO o.a.j.g.a.Start: Shutting test down
+2022-05-27 15:46:30,032 INFO o.a.j.t.JMeterThread: Stopping: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 15:46:30,215 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 15:46:30,216 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 15:46:30,217 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 17:44:43,680 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 17:44:43,680 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 17:44:43,681 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 17:44:43,724 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 17:44:43,724 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 17:44:43,725 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 17:44:43,725 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 17:44:43,725 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 17:44:43,725 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 17:44:43,726 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 17:47:51,513 INFO o.a.j.g.a.Start: Shutting test down
+2022-05-27 17:47:51,533 INFO o.a.j.t.JMeterThread: Stopping: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 17:47:52,104 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 17:47:52,105 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 17:47:52,106 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-05-27 17:48:16,004 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-27 17:48:16,005 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-27 17:48:16,005 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-05-27 17:48:16,044 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-27 17:48:16,044 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group jp@gc - Ultimate Thread Group.
+2022-05-27 17:48:16,044 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-27 17:48:16,044 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 1
+2022-05-27 17:48:16,045 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-27 17:48:16,045 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-27 17:48:16,045 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 18:10:46,156 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 18:10:46,157 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-27 18:10:46,157 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-27 18:10:46,157 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

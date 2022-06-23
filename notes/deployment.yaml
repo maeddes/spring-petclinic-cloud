@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: k8s-demo-app
+  name: k8s-demo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k8s-demo-app
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: k8s-demo-app
+    spec:
+      containers:
+      - image: spring-on-kubernetes-w01-s012-registry.learningcenter.tap.ryanjbaxter.com/apps/demo
+        name: demo
+        resources: {}
+        readinessProbe:
+          httpGet:
+            port: 8080
+            path: /actuator/health/readiness
+        livenessProbe:
+          httpGet:
+            port: 8080
+            path: /actuator/health/liveness
+        lifecycle:
+          preStop:
+            exec:
+              command:
+                - sh
+                - '-c'
+                - sleep 10
+status: {}
